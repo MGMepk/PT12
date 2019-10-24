@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingLeft="60dp"
+    android:paddingTop="60dp"
+    android:paddingRight="60dp"
+    android:paddingBottom="60dp"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".MainActivity"
+    tools:showIn="@layout/activity_main">
+
+
+    <EditText
+        android:id="@+id/text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/mayus"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="setMayus"
+            android:text="Mayus" />
+
+        <Button
+            android:id="@+id/minus"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="setMinus"
+            android:text="Minus" />
+
+        <Button
+            android:id="@+id/camel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="setCaps"
+            android:text="CamelCase" />
+    </LinearLayout>
+
+</LinearLayout>
