@@ -8,20 +8,16 @@
         android:title="@string/action_settings"
         app:showAsAction="never" />
 
-    <item
-        android:id="@+id/preferences"
-        android:title="Prefs"
-        app:showAsAction="ifRoom|withText" />
 
     <item
         android:id="@+id/exemple"
         android:icon="@drawable/ic_launcher_foreground"
-        android:title="Example"
+        android:title="@string/example"
         app:showAsAction="ifRoom|withText" />
 
     <item
         android:id="@+id/help"
-        android:title="Ajuda"
-        app:showAsAction="ifRoom|withText" />
+        android:title="@string/help"
+        app:showAsAction="never" />
 
 </menu>

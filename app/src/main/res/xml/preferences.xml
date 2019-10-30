@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="Principal">
+
+        <EditTextPreference
+            android:defaultValue="Benvingut"
+            android:key="preference_message"
+            android:selectAllOnFocus="true"
+            android:singleLine="true"
+            android:title="Missatge benvinguda" />
+
+        <MultiSelectListPreference
+            android:entries="@array/pelis"
+            android:entryValues="@array/codipelis"
+            android:key="pref_multilist"
+            android:title="@string/multilistTitle" />
+
+        <ListPreference
+            android:entries="@array/pais"
+            android:entryValues="@array/codipais"
+            android:key="pais"
+            android:title="Pais" />
+
+        <SwitchPreference
+            android:defaultValue="false"
+            android:key="preference_color"
+            android:summaryOff="El color serà verd"
+            android:summaryOn="El color serà blau"
+            android:title="Color" />
+
+        <CheckBoxPreference
+            android:key="sound"
+            android:summary="So activat"
+            android:title="So" />
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="Altres">
+        <Preference android:title="Google">
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:data="http://www.google.es"
+                android:title="Pàgina Web" />
+        </Preference>
+
+        <Preference android:title="EdT">
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:data="http://www.escoladeltreball.org"
+                android:title="Pàgina Web" />
+        </Preference>
+
+        <Preference android:title="prefs sistema">
+            <intent android:action="android.settings.SYNC_SETTINGS" />
+        </Preference>
+
+    </PreferenceCategory>
+
+</PreferenceScreen>

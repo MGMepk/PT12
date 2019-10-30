@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="pais">
+        <item>Espanya</item>
+        <item>Italia</item>
+        <item>França</item>
+        <item>Alemanya</item>
+    </string-array>
+
+    <string-array name="codipais">
+        <item>ES</item>
+        <item>IT</item>
+        <item>FR</item>
+        <item>DE</item>
+    </string-array>
+
+    <string-array name="pelis">
+        <item>Comedy</item>
+        <item>Drama</item>
+        <item>Mistery</item>
+        <item>Action</item>
+    </string-array>
+    <string-array name="codipelis">
+        <item>co</item>
+        <item>dr</item>
+        <item>mi</item>
+        <item>ac</item>
+
+    </string-array>
+
+</resources>

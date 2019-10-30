@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/prefLayout"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
@@ -23,21 +24,21 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:onClick="setMayus"
-            android:text="Mayus" />
+            android:text="@string/mayus" />
 
         <Button
             android:id="@+id/minus"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:onClick="setMinus"
-            android:text="Minus" />
+            android:text="@string/minus" />
 
         <Button
             android:id="@+id/camel"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:onClick="setCaps"
-            android:text="CamelCase" />
+            android:text="@string/camel" />
     </LinearLayout>
 
 </LinearLayout>
