@@ -47,6 +47,8 @@ public class MainActivity extends AppCompatActivity {
         } else if (id == R.id.help) {
             Intent intent = new Intent(Intent.ACTION_VIEW);
             intent.setData(Uri.parse("http://escoladeltreball.org"));
+            startActivity(intent);
+            return true;
         }
 
         return super.onOptionsItemSelected(item);
